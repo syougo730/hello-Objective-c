@@ -17,6 +17,7 @@
 		D6395DD8282B8BA6004BE9C5 /* PuyoPuyoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6395DD7282B8BA6004BE9C5 /* PuyoPuyoTests.m */; };
 		D6395DE2282B8BA6004BE9C5 /* PuyoPuyoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6395DE1282B8BA6004BE9C5 /* PuyoPuyoUITests.m */; };
 		D6395DE4282B8BA6004BE9C5 /* PuyoPuyoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6395DE3282B8BA6004BE9C5 /* PuyoPuyoUITestsLaunchTests.m */; };
+		D6395DF1282B9975004BE9C5 /* Puyo.m in Sources */ = {isa = PBXBuildFile; fileRef = D6395DF0282B9975004BE9C5 /* Puyo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D6395DDD282B8BA6004BE9C5 /* PuyoPuyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuyoPuyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6395DE1282B8BA6004BE9C5 /* PuyoPuyoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuyoPuyoUITests.m; sourceTree = "<group>"; };
 		D6395DE3282B8BA6004BE9C5 /* PuyoPuyoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuyoPuyoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D6395DF0282B9975004BE9C5 /* Puyo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puyo.m; sourceTree = "<group>"; };
+		D6395DF5282B9CCD004BE9C5 /* Puyo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puyo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D6395DC9282B8BA6004BE9C5 /* LaunchScreen.storyboard */,
 				D6395DCC282B8BA6004BE9C5 /* Info.plist */,
 				D6395DCD282B8BA6004BE9C5 /* main.m */,
+				D6395DF0282B9975004BE9C5 /* Puyo.m */,
+				D6395DF5282B9CCD004BE9C5 /* Puyo.h */,
 			);
 			path = PuyoPuyo;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6395DF1282B9975004BE9C5 /* Puyo.m in Sources */,
 				D6395DC3282B8BA5004BE9C5 /* ViewController.m in Sources */,
 				D6395DBD282B8BA5004BE9C5 /* AppDelegate.m in Sources */,
 				D6395DCE282B8BA6004BE9C5 /* main.m in Sources */,
@@ -442,6 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FJDHTUVM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PuyoPuyo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FJDHTUVM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PuyoPuyo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
